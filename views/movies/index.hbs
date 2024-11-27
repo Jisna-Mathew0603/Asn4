@@ -1,0 +1,12 @@
+<h2>All Movies</h2>
+  <link rel="stylesheet" type="text/css" href="/styles/style.css">
+
+<ul>
+    {{#each movies}}
+    <li>
+        <a href="/movies/{{this.Movie_ID}}">{{this.Title}}</a>
+        <a href="/movies/edit/{{this.Movie_ID}}">Edit</a>
+        <a href="/movies/delete/{{this.Movie_ID}}">Delete</a>
+    </li>
+    {{/each}}
+</ul>

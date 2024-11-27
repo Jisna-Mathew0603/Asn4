@@ -1,0 +1,19 @@
+<h1>Add a New Movie</h1>
+<form action="/movies" method="POST">
+    <label for="Movie_ID">Movie ID:</label>
+    <input type="number" name="Movie_ID" id="Movie_ID" required><br>
+
+    <label for="Title">Title:</label>
+    <input type="text" name="Title" id="Title" required><br>
+
+    <label for="Released">Released Year:</label>
+    <input type="text" name="Released" id="Released"><br>
+
+    <label for="Genre">Genre:</label>
+    <input type="text" name="Genre" id="Genre"><br>
+
+    <label for="Rating">Rating:</label>
+    <input type="number" name="Rating" id="Rating" step="0.1" min="0" max="10"><br>
+
+    <button type="submit">Submit</button>
+</form>

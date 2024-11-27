@@ -1,0 +1,22 @@
+/* Example of a simple CSS file */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1 {
+    color: #2a2a2a;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding: 8px;
+    margin-bottom: 5px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
